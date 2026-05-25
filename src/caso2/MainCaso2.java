@@ -28,3 +28,9 @@ public class MainCaso2 {
         imprimir(r4);
     }
 }
+
+/*
+    Justificacion:
+
+    Se aplicó el patrón Decorator para evitar la explosión de clases por cada combinación posible, permitiendo añadir secciones de forma dinámica y modular. Este enfoque permite extender las funcionalidades del reporte sin modificar el código base original, resolviendo el problema de mantenimiento y garantizando que el sistema sea escalable y flexible ante nuevos requerimientos.
+*/

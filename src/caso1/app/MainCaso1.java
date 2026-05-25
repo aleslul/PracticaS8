@@ -29,3 +29,11 @@ public class MainCaso1 {
         pool.liberarConexion(c5);
     }
 }
+
+/*
+    Justificacion:
+
+Se necesita reutilizar conexiones costosas de crear y limitar
+ * su cantidad maxima. El pool presta objetos existentes y los recupera al
+ * liberarlos, evitando crear y destruir conexiones en cada solicitud.
+*/
